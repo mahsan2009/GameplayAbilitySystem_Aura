@@ -1,0 +1,29 @@
+[33mcommit 3430919cdb1b8b273b21d8b491c3d20f5d4601bd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mMain[m[33m, [m[1;31morigin/Main[m[33m)[m
+Author: Muhammad Ahsan <muhammad2009ahsan@gmail.com>
+Date:   Fri Aug 23 22:05:57 2024 +0500
+
+    Aura Player Controller
+
+[33mcommit f6bd1e27e555371c35e94ad4310a9d4f48491d19[m
+Author: Muhammad Ahsan <muhammad2009ahsan@gmail.com>
+Date:   Fri Aug 23 16:08:07 2024 +0500
+
+    Character Blueprint Setup
+
+[33mcommit d1607b5278aed28a105985c5b3b65608884d04d9[m
+Author: Muhammad Ahsan <muhammad2009ahsan@gmail.com>
+Date:   Fri Aug 23 15:07:58 2024 +0500
+
+    Player and Enemy Characters
+
+[33mcommit 283c61638db91266cb659e74740d7eb4e2a95f33[m
+Author: Muhammad Ahsan <muhammad2009ahsan@gmail.com>
+Date:   Fri Aug 23 14:57:24 2024 +0500
+
+    The Base Character Class
+
+[33mcommit f5f923ae2a8f46e10dbf790cfd50ebac9ad351d7[m
+Author: Muhammad Ahsan <muhammad2009ahsan@gmail.com>
+Date:   Fri Aug 23 14:45:21 2024 +0500
+
+    Initial Project Files
