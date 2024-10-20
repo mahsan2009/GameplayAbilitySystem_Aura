@@ -22,9 +22,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://3" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://2" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UE_5.3/Engine/Source/Runtime/Core/Public/Logging/LogMacros.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UE_5.3/Engine/Source/Runtime/Core/Public/Templates/Tuple.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UE_5.3/Engine/Source/Runtime/Engine/Private/Actor.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -261,6 +259,9 @@
       <workItem from="1729171695657" duration="88000" />
       <workItem from="1729171801560" duration="2241000" />
       <workItem from="1729258217595" duration="90000" />
+      <workItem from="1729258347235" duration="2075000" />
+      <workItem from="1729434169605" duration="84000" />
+      <workItem from="1729434274063" duration="1295000" />
     </task>
     <servers />
   </component>
