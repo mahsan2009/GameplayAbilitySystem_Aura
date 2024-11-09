@@ -9,8 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e189f1cb-07db-49e9-b7fe-297d8327b34e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/Character/AuraEnemy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/Character/AuraEnemy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/Character/AuraEnemy.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/Character/AuraEnemy.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +281,11 @@
       <workItem from="1730812657783" duration="96000" />
       <workItem from="1730812771123" duration="2791000" />
       <workItem from="1730898530985" duration="84000" />
-      <workItem from="1730898631796" duration="730000" />
+      <workItem from="1730898631796" duration="1542000" />
+      <workItem from="1731068347449" duration="86000" />
+      <workItem from="1731068460739" duration="1411000" />
+      <workItem from="1731144225112" duration="57000" />
+      <workItem from="1731144305859" duration="770000" />
     </task>
     <servers />
   </component>
