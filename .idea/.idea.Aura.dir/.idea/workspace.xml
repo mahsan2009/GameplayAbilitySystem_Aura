@@ -9,6 +9,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e189f1cb-07db-49e9-b7fe-297d8327b34e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/AuraAttributeSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/AuraAttributeSet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/Player/AuraPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/Player/AuraPlayerController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/AuraAttributeSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/AuraAttributeSet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/Player/AuraPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/Player/AuraPlayerController.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,7 +307,11 @@
       <workItem from="1732020330922" duration="76000" />
       <workItem from="1732020426148" duration="2371000" />
       <workItem from="1732108417051" duration="138000" />
-      <workItem from="1732108579367" duration="774000" />
+      <workItem from="1732108579367" duration="2095000" />
+      <workItem from="1732196255181" duration="153000" />
+      <workItem from="1732196424168" duration="1906000" />
+      <workItem from="1732281890489" duration="119000" />
+      <workItem from="1732282028373" duration="1057000" />
     </task>
     <servers />
   </component>
