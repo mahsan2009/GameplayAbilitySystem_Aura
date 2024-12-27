@@ -3,7 +3,7 @@
 
 #include "UI/HUD/AuraHUD.h"
 
-#include "UnrealWidgetFwd.h"
+
 #include "UI/Widget/AuraUserWidget.h"
 #include "Blueprint/UserWidget.h"
 #include "UI/WidgetController/AttributeMenuWidgetController.h"
