@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e189f1cb-07db-49e9-b7fe-297d8327b34e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/AuraGameplayTags.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/AuraGameplayTags.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/AuraGameplayTags.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/AuraGameplayTags.h" afterDir="false" />
-    </list>
+    <list default="true" id="e189f1cb-07db-49e9-b7fe-297d8327b34e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -344,6 +341,7 @@
       <workItem from="1735235053920" duration="256000" />
       <workItem from="1735303478947" duration="100000" />
       <workItem from="1735394271536" duration="7000" />
+      <workItem from="1748189414958" duration="2000" />
     </task>
     <servers />
   </component>
