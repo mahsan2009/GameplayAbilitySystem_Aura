@@ -36,6 +36,7 @@
     <setting file="file://$PROJECT_DIR$/../../UE_5.3/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectHandle.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UE_5.3/Engine/Source/Runtime/Engine/Private/Actor.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UE_5.3/Engine/Source/Runtime/Engine/Private/Blueprint.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../UE_5.3/Engine/Source/Runtime/Engine/Private/KismetSystemLibrary.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UE_5.3/Engine/Source/Runtime/GameplayTags/Classes/GameplayTagContainer.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UE_5.3/Engine/Source/Runtime/UMG/Public/Components/WrapBox.h" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -342,6 +343,7 @@
       <workItem from="1735303478947" duration="100000" />
       <workItem from="1735394271536" duration="7000" />
       <workItem from="1748189414958" duration="2000" />
+      <workItem from="1748608013861" duration="9000" />
     </task>
     <servers />
   </component>
