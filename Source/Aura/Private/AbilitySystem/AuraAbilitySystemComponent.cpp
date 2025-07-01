@@ -22,7 +22,8 @@ void UAuraAbilitySystemComponent::AddCharacterAbilities(const TArray<TSubclassOf
 			AbilitySpec.DynamicAbilityTags.AddTag(AuraAbility->StartUpInputTag);
 			GiveAbility(AbilitySpec);
 		}
-		
+		bStartupAbilitesGiven = true;
+		AbilitiesGivenDelegate.Broadcast(this);
 	}
 }
 
