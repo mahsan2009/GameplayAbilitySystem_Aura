@@ -65,7 +65,7 @@ void UAuraAbilitySystemComponent::ForEachAbility(const FForEachAbility& Delegate
 	{
 		if (!Delegate.ExecuteIfBound(AbilitySpec))
 		{
-			UE_LOG(LogAura, Error, TEXT("Failed To Excecute Delegate in %hs"), __FUNCTTION__);
+			UE_LOG(LogAura, Error, TEXT("Failed to execute delegate in %hs"), __FUNCTION__);
 		}
 	}
 }
@@ -97,10 +97,20 @@ FGameplayTag UAuraAbilitySystemComponent::GetInputTagFromSpec(const FGameplayAbi
 	return FGameplayTag();
 }
 
-void UAuraAbilitySystemComponent::ClientEffectApplied_Implementation(UAbilitySystemComponent* AbilitySystemComponent,
-                                                const FGameplayEffectSpec& EffectSpec, FActiveGameplayEffectHandle ActiveEffectHandle)
+void UAuraAbilitySystemComponent::OnRep_ActivateAbilities()
+{
+	Super::OnRep_ActivateAbilities(); 
+
+	if (!bStartupAbilitesGiven)
+	{
+		bStartupAbilitesGiven = true;
+		AbilitiesGivenDelegate.Broadcast(this);
+	}
+}
+
+void UAuraAbilitySystemComponent::ClientEffectApplied_Implementation(UAbilitySystemComponent* AbilitySystemComponent,  const FGameplayEffectSpec& EffectSpec, FActiveGameplayEffectHandle ActiveEffectHandle)
 {
 	FGameplayTagContainer TagContainer;
 	EffectSpec.GetAllAssetTags(TagContainer);
-	EffectAssetTags.Broadcast(TagContainer);
+
 }

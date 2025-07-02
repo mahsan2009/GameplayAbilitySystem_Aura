@@ -16,6 +16,8 @@ void UOverlayWidgetController::BroadcastInitialValues()
 
 	OnManaChanged.Broadcast(AuraAttributeSet->GetMana());
 	OnMaxManaChanged.Broadcast(AuraAttributeSet->GetMaxMana());
+
+
 }
 
 void UOverlayWidgetController::BindCallbacksToDependencies()
@@ -79,16 +81,16 @@ void UOverlayWidgetController::BindCallbacksToDependencies()
 void UOverlayWidgetController::OnInitialzeStartupAbilities(UAuraAbilitySystemComponent* AuraAbilitySystemComponent)
 {
 	//TODO Get information about all given abilities, look up their Ability Info, and broadcast it to widgets.
-	if (AuraAbilitySystemComponent->bStartupAbilitesGiven) return;
+	if (!AuraAbilitySystemComponent->bStartupAbilitesGiven) return;
 
-	FForEachAbility BroadCastDelegate;
-	BroadCastDelegate.BindLambda([this, AuraAbilitySystemComponent](const FGameplayAbilitySpec& AbilitySpec) 
+	FForEachAbility BroadcastDelegate;
+		BroadcastDelegate.BindLambda([this, AuraAbilitySystemComponent](const FGameplayAbilitySpec& AbilitySpec)
 	{
-		
+		//TODO need a way to figure out the ability tag for a given ability spec.
 		FAuraAbilityInfo Info = AbilityInfo->FindAbilityInforForTag(AuraAbilitySystemComponent->GetAbilityTagFromSpec(AbilitySpec));
 		Info.InputTag = AuraAbilitySystemComponent->GetInputTagFromSpec(AbilitySpec);
 		AbilityInfoDelegate.Broadcast(Info);
 	});
-	AuraAbilitySystemComponent->ForEachAbility(BroadCastDelegate);
+	AuraAbilitySystemComponent->ForEachAbility(BroadcastDelegate);
 }
 
